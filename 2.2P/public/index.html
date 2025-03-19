@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <h1>Calculator GET</h1>
+    <form action="/sum" method="get">
+        <label for="num1">Enter 1st number:</label>
+        <input type="text" id="num1" name="num1" required>
+        <label for="num2">Enter 2nd number:</label>
+        <input type="text" id="num2" name="num2" required>
+        <hr>
+        <button type="submit">Calculate Sum</button>
+    </form>
+
+    <hr>
+
+    <h1>Calculator POST</h1>
+    <form action="/sum" method="post">
+        <label for="n1">Enter 1st number:</label>
+        <input type="text" id="n1" name="n1" required>
+        <label for="n2">Enter 2nd number:</label>
+        <input type="text" id="n2" name="n2" required>
+        <hr>
+        <button type="submit">Calculate Sum</button>
+    </form>
+</body>
+
+</html>
